@@ -2,7 +2,7 @@ apiVersion: backstage.io/v1alpha1
 kind: Component
 metadata:
   name: account-portal
-  description: 
+  description: My Next.js application
   annotations:
     backstage.io/kubernetes-id: account-portal
     backstage.io/kubernetes-label-selector: 'app.kubernetes.io/name=account-portal'
