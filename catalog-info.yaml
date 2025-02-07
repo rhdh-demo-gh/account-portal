@@ -11,6 +11,6 @@ metadata:
     gitlab.com/project-slug: rhdh-demo-gh/account-portal
 spec:
   type: website
-  system: 
+  system: business-account-platform
   lifecycle: dev
   owner: user:default/evanshortiss
