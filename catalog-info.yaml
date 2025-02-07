@@ -1,0 +1,16 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: account-portal
+  description: 
+  annotations:
+    backstage.io/kubernetes-id: account-portal
+    backstage.io/kubernetes-label-selector: 'app.kubernetes.io/name=account-portal'
+    backstage.io/source-location: url:https://github/rhdh-demo-gh/account-portal
+    backstage.io/techdocs-ref: .
+    gitlab.com/project-slug: rhdh-demo-gh/account-portal
+spec:
+  type: website
+  system: 
+  lifecycle: dev
+  owner: user:default/evanshortiss
